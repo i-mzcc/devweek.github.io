@@ -3,11 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
-    background-color: #fff4e1;
+    background-color: #70c6c7;
 }
 
 .resume-contents {
@@ -21,13 +21,13 @@ body {
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color: #c77070;
+    background-color: #00204A;
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
-    background-color: #f3b6ae;
+    background-color: #4B6982;
     border-radius: 0px 60px 0px 0px;
 }
 
@@ -37,38 +37,38 @@ body {
 
 .profile {
     width: 100%;
-    border-bottom: 2px solid #7e4545;
+    border-bottom: 2px solid #1B2631;
 }
 
 .profile .profile-image {
     width: 100%;
     border-radius: 50%;
-    border: 0px solid #1B2631;
+    border: 8px solid #1B2631;
 }
 
 .name {
-    color: #fcf4f4;
+    color: #D6DBDF;
     font-size: 30px;
     letter-spacing: 2px;
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
-    padding: 2rem 0;
+    padding: 1rem 0;
 }
 
 .profession {
-    color: #7e4545;
+    color: #FDB44B;
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 2px;
     font-weight: bold;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
 }
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
-    color: #7e4545;
+    color: #FDB44B;
     font-size: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -87,7 +87,7 @@ body {
     padding: .4rem 0;
     display: flex;
     align-items: center;
-    color: #fcf4f4;
+    color: #d6dbdfaf;
     letter-spacing: 1px;
     font-size: 18px;
 }
@@ -104,7 +104,7 @@ body {
 }
 .skills ul li p {
     padding: .4rem 0;
-    color: #fcf4f4;
+    color: #d6dbdfaf;
     font-size: 18px;
     letter-spacing: 1px;
     display: flex;
@@ -116,14 +116,14 @@ body {
     padding-top: 1.5rem;
     padding-bottom: .4rem;
     font-size: 18px;
-    color: #9c5656cb;
+    color: #F9E79F;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
 
 .referance-profession {
     font-size: 16px;
-    color: #f7d9d9;
+    color: #d6dbdfaf;
     letter-spacing: 1px;
     /* text-transform: uppercase; */
     padding-bottom: .4rem;
@@ -135,7 +135,7 @@ body {
 }
 
 .right-title {
-    color: #9c5656cb;
+    color: #70C6C7;
     font-size: 40px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -149,12 +149,11 @@ body {
 .gap {
     padding-bottom: 2rem;
 }
-
 .about-me-contents {
     font-size: 18px;
     letter-spacing: 1px;
     line-height: 2rem;
-    color: #fff4e1;
+    color: #F1F8FD;
 }
 
 .experience-contents,
@@ -163,7 +162,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 2rem;
-    color: #fff4e1;
+    color: #F1F8FD;
 }
 
 .exp-company-name,
@@ -173,7 +172,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #9c5656cb;
+    color: #FDB44B;
     padding-bottom: .4rem;
 }
 
@@ -192,7 +191,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #9c5656cb;
+    color: #FDB44B;
     padding-bottom: .4rem;
 }
 
@@ -202,7 +201,7 @@ body {
     font-size: 16px;
     letter-spacing: 1px;
     line-height: 1.5rem;
-    border-left: 3px solid #8f4f4fcb;
+    border-left: 3px solid #a5a3a3;
     padding-left: 5px;
 }
 
